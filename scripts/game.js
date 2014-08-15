@@ -148,9 +148,7 @@ requirejs(
 
   var server;
   if (globals.haveServer) {
-    server = new GameServer({
-      gameId: "orient",
-    });
+    server = new GameServer();
     g_services.server = server;
     server.addEventListener('playerconnect', startPlayer);
   }

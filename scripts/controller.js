@@ -58,9 +58,7 @@ requirejs(
 
   };
 
-  g_client = new GameClient({
-    gameId: "orient",
-  });
+  g_client = new GameClient();
 
   g_client.addEventListener('scored', onScored);
 
