@@ -64,7 +64,6 @@ requirejs(
     shotInterval: 1,
     shotVelocity: 400,
     goalSize: 40,
-    port: 8080,
     haveServer: true,
     areaSize: 300,
     time: 0,
