@@ -35,7 +35,7 @@ requirejs(
   [ 'hft/gameserver',
     'hft/gamesupport',
     'hft/misc/misc',
-    '../3rdparty/three/three.min',
+    '../bower_components/three.js/three.min',
     '../bower_components/hft-utils/dist/audio',
     '../bower_components/hft-utils/dist/entitysystem',
     './goal',
