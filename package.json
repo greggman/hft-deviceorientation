@@ -1,10 +1,9 @@
 {
   "name": "Device Orientation",
   "description": "A game that shows off using device orientation",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "private": false,
-  "dependencies": {
-  },
+  "dependencies": {},
   "happyFunTimes": {
     "gameId": "deviceorientation",
     "category": "example",
