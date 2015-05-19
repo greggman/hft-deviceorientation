@@ -46,6 +46,7 @@ requirejs(
   var g_client;
 
   var globals = {
+    orientation: "landscape-primary",
   };
   Misc.applyUrlSettings(globals);
   MobileHacks.fixHeightHack();
